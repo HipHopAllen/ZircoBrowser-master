@@ -56,12 +56,12 @@
         "source": "/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/res/drawable-hdpi/ic_tab_bookmarks_selected.png"
     },
     {
-        "merged": "/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_menu_delete.png",
-        "source": "/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/res/drawable-hdpi/ic_menu_delete.png"
-    },
-    {
         "merged": "/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/res/merged/debug/drawable-hdpi/fav_icn_default.png",
         "source": "/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/res/drawable-hdpi/fav_icn_default.png"
+    },
+    {
+        "merged": "/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_menu_delete.png",
+        "source": "/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/res/drawable-hdpi/ic_menu_delete.png"
     },
     {
         "merged": "/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_btn_bookmarks.png",

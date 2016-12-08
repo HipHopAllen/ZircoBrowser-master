@@ -2,13 +2,31 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="491e5677156ee5b1d2489e7be9accf0262f343aa">
+        <dex dex="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6fa56d52a36774ba326e5eabc5e975131102715a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8e0560a5ef73b91cc033f857dd5da9ac7eebf1ef">
+        <dex dex="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6ba4c1c2677d8a0fdba8e5e0fd4b2d175cf504bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/libs/volley.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="7eb90d3407943ccbac85ddb1406522baa36ef0ba">
-        <dex dex="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/pre-dexed/debug/volley_10b6bf602947cc700b712766a01f15eb9b394707.jar" />
+        <dex dex="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_10b6bf602947cc700b712766a01f15eb9b394707/classes.dex" />
     </item>
 
 </items>
