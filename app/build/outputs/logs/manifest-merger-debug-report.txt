@@ -1,0 +1,223 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:18:1-143:12
+	package
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:19:5-24
+		INJECTED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:22:5-32
+		INJECTED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:21:5-29
+		INJECTED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:18:11-69
+	android:installLocation
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:20:5-35
+application
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:24:5-118:19
+	android:label
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:27:9-48
+	android:icon
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:26:9-38
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:25:9-40
+activity#org.zirco.ui.activities.MainActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:28:9-47:20
+	android:label
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:31:13-52
+	android:launchMode
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:32:13-44
+	android:configChanges
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:30:13-63
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:29:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:36:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:38:13-46:29
+action#android.intent.action.VIEW
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:39:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:41:17-76
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:41:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:42:17-78
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:42:27-75
+data
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:44:17-47
+	android:scheme
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:44:23-44
+activity#org.zirco.ui.activities.AboutActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:48:9-52:20
+	android:label
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:50:13-56
+	android:theme
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:51:13-56
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:49:13-56
+activity#org.zirco.ui.activities.EditBookmarkActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:53:9-57:20
+	android:label
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:55:13-63
+	android:theme
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:56:13-56
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:54:13-63
+activity#org.zirco.ui.activities.BookmarksListActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:58:9-59:20
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:58:19-70
+activity#org.zirco.ui.activities.HistoryListActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:60:9-61:20
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:60:19-68
+activity#org.zirco.ui.activities.DownloadsListActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:62:9-63:20
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:62:19-70
+activity#org.zirco.ui.activities.AdBlockerWhiteListActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:64:9-65:20
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:64:19-75
+activity#org.zirco.ui.activities.BookmarksHistoryActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:66:9-69:20
+	android:configChanges
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:68:13-63
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:67:13-67
+activity#org.zirco.ui.activities.ChangelogActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:70:9-74:20
+	android:label
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:72:13-60
+	android:theme
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:71:13-60
+activity#org.zirco.ui.activities.preferences.PreferencesActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:75:9-76:20
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:75:19-80
+activity#org.zirco.ui.activities.preferences.HomepagePreferenceActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:77:9-81:20
+	android:label
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:79:13-69
+	android:theme
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:80:13-56
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:78:13-81
+activity#org.zirco.ui.activities.preferences.SearchUrlPreferenceActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:82:9-86:20
+	android:label
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:84:13-70
+	android:theme
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:83:13-82
+activity#org.zirco.ui.activities.preferences.UserAgentPreferenceActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:87:9-91:20
+	android:label
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:89:13-70
+	android:theme
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:88:13-82
+activity#org.zirco.ui.activities.MobileViewListActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:92:9-93:20
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:92:19-71
+activity#org.zirco.ui.activities.WeaveBookmarksListActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:94:9-95:20
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:94:19-75
+activity#org.zirco.ui.activities.preferences.WeavePreferencesActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:96:9-97:20
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:96:19-85
+activity#org.zirco.ui.activities.preferences.WeaveServerPreferenceActivity
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:98:9-102:20
+	android:label
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:100:13-72
+	android:theme
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:101:13-56
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:99:13-84
+provider#org.zirco.providers.ZircoBookmarksContentProvider
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:104:9-107:20
+	android:authorities
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:106:13-84
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:105:13-68
+provider#org.zirco.providers.WeaveContentProvider
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:108:9-111:20
+	android:authorities
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:110:13-75
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:109:13-59
+receiver#org.zirco.utils.ProxyChangeReceiver
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:113:9-117:20
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:113:19-69
+intent-filter#android.intent.action.PROXY_CHANGE
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:114:13-116:29
+action#android.intent.action.PROXY_CHANGE
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:115:17-77
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:115:25-74
+uses-sdk
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:120:5-122:40
+	android:targetSdkVersion
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:122:9-37
+		INJECTED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:121:9-34
+		INJECTED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:124:5-125:23
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:124:22-64
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:126:5-127:23
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:126:22-90
+uses-permission#com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:128:5-129:23
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:128:22-91
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:130:5-131:23
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:130:22-78
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:133:5-135:35
+	android:required
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:135:9-32
+	android:name
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:134:9-52
+supports-screens
+ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:137:5-141:39
+	android:largeScreens
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:139:9-36
+	android:smallScreens
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:141:9-36
+	android:normalScreens
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:140:9-37
+	android:anyDensity
+		ADDED from /Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/src/main/AndroidManifest.xml:138:9-34

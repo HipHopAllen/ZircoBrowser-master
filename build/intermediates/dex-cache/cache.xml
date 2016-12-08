@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/libs/volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7eb90d3407943ccbac85ddb1406522baa36ef0ba">
+        <dex dex="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/pre-dexed/debug/volley_10b6bf602947cc700b712766a01f15eb9b394707.jar" />
+    </item>
+
+</items>
