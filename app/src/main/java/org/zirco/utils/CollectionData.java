@@ -77,7 +77,11 @@ public class CollectionData implements SensorEventListener {
 
     //get the data
     public void getCollectionData(Context context,MotionEvent event){
-        timeStamp = event.getEventTime();
+        timeStamp = event.getEventTime(); // this is not timestamp actually, it is just event time
+        //We can try to get timestamp from SensorEvent as follows
+        //private float timestamp;
+        //timeStamp = event.timestamp;
+
         x = event.getX();
         y = event.getY();
         pressure = event.getPressure();
@@ -197,3 +201,4 @@ public class CollectionData implements SensorEventListener {
 
     }
 }
+
