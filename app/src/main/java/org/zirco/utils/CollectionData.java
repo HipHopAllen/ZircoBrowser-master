@@ -42,12 +42,16 @@ public class CollectionData implements SensorEventListener {
 
     private static float[] accValues;
     private static float[] orientationValues;
+    private static float[] gyroscopeValues;
 
     private SensorManager sensorManager;
     private Sensor accSensor;
     private Sensor orientationSensor;
+    private Sensor gyroscopeSensor;
     private static float azimuth,pitch,poll;
     private static float gx,gy,gz;
+    private static float sx,sy,sz;
+
     //Finish the variable declaration
 
     //define the sql database
@@ -65,8 +69,10 @@ public class CollectionData implements SensorEventListener {
         sensorManager = (SensorManager) context.getSystemService(SENSOR_SERVICE);
         accSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         orientationSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
+        gyroscopeSensor = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
         sensorManager.registerListener(this,accSensor,SensorManager.SENSOR_DELAY_GAME);
         sensorManager.registerListener(this,orientationSensor,SensorManager.SENSOR_DELAY_GAME);
+        sensorManager.registerListener(this,gyroscopeSensor,SensorManager.SENSOR_DELAY_GAME);
 
         //get the database object
         collectionSqlite = new CollectionDataStoreSqlite(context);
@@ -102,6 +108,7 @@ public class CollectionData implements SensorEventListener {
                 figureOrientation+"screenOrientationStr:"+screenOrientationStr);
         Log.v("ltl","gx:"+gx+" gy:"+gy+" gz:"+gz);
         Log.v("ltl","azimuth:"+azimuth+" pitch:"+pitch+" poll:"+poll);
+        Log.v("ltl","sx:"+sx+" sy:"+sy+" sz:"+sz);
 
         //save to database
         ContentValues contentValues = new ContentValues();
@@ -119,7 +126,9 @@ public class CollectionData implements SensorEventListener {
         contentValues.put("gx",gx);
         contentValues.put("gy",gy);
         contentValues.put("gz",gz);
-
+        contentValues.put("sx",sx);
+        contentValues.put("sy",sy);
+        contentValues.put("sz",sz);
 
         db.insert("collectation",null,contentValues);
         new DBHelper(context).openDatabase();
@@ -187,11 +196,24 @@ public class CollectionData implements SensorEventListener {
             gy = accValues[1];
             gz = accValues[2];
         }
-        else if(sensorEvent.sensor.getType()==Sensor.TYPE_ORIENTATION){
-            orientationValues=sensorEvent.values.clone();
-            azimuth = orientationValues[0];
-            pitch = orientationValues[1];
-            poll = orientationValues[2];
+       // else if(sensorEvent.sensor.getType()==Sensor.TYPE_ORIENTATION){
+       //     orientationValues=sensorEvent.values.clone();
+       //     azimuth = orientationValues[0];
+       //     pitch = orientationValues[1];
+       //     poll = orientationValues[2];
+       // }
+        if(sensorEvent.sensor.getType()==Sensor.TYPE_ORIENTATION){
+             orientationValues=sensorEvent.values.clone();
+             azimuth = orientationValues[0];
+             pitch = orientationValues[1];
+             poll = orientationValues[2];
+        }
+
+        if(sensorEvent.sensor.getType()==Sensor.TYPE_GYROSCOPE){
+            gyroscopeValues=sensorEvent.values.clone();
+            sx = gyroscopeValues[0];
+            sy = gyroscopeValues[1];
+            sz = gyroscopeValues[2];
         }
 
     }
