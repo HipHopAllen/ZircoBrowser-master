@@ -20,7 +20,7 @@ public class CollectionDataStoreSqlite extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
 
         String sql = "create table collectation(timeStamp float PRIMARY KEY,x float,y float,pressure float," +
-                "areaCover float,pointerCount float,actionCode float,actionCode2 float,actionCode3 float,figureOrientation varchar(32),screenOrientationStr varchar(32)," +
+                "areaCover float,pointerCount float,actionCode float,actionCodeMasked float,actionIndex float,figureOrientation varchar(32),screenOrientationStr varchar(32)," +
                 "azimuth float,pitch float,poll float,gx float,gy float,gz float,sx float,sy float,sz float);";
 
         sqLiteDatabase.execSQL(sql);
