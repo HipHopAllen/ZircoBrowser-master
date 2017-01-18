@@ -52,6 +52,16 @@ public class CollectionData implements SensorEventListener {
     private static float gx,gy,gz;
     private static float sx,sy,sz;
 
+
+    private static float pointerCount;
+    private static float actionCode;
+    private static float actionCode2;
+    private static float actionCode3;
+
+
+
+    //private static float areaCover;
+
     //Finish the variable declaration
 
     //define the sql database
@@ -92,6 +102,10 @@ public class CollectionData implements SensorEventListener {
         y = event.getY();
         pressure = event.getPressure();
         areaCover = event.getSize();
+        pointerCount = event.getPointerCount();
+        actionCode = event.getAction();
+        actionCode2 = event.getActionMasked();
+        actionCode3 = event.getActionIndex();
 
      //   figureOrientation = getOrientation(event);
      //   Log.v("ltl","figureOrientation"+ figureOrientation);
@@ -104,7 +118,7 @@ public class CollectionData implements SensorEventListener {
         }
 
 
-        Log.v("ltl","timeStamp:"+timeStamp+"x:"+x+"y:"+y+"pressure:"+pressure+"areaCover:"+areaCover+"figureOrientation:"+
+        Log.v("ltl","timeStamp:"+timeStamp+"actionCode"+actionCode+"actionCode2"+actionCode2+"actionCode3"+actionCode3+"pointerCount"+pointerCount+"x:"+x+"y:"+y+"pressure:"+pressure+"areaCover:"+areaCover+"figureOrientation:"+
                 figureOrientation+"screenOrientationStr:"+screenOrientationStr);
         Log.v("ltl","gx:"+gx+" gy:"+gy+" gz:"+gz);
         Log.v("ltl","azimuth:"+azimuth+" pitch:"+pitch+" poll:"+poll);
@@ -118,6 +132,11 @@ public class CollectionData implements SensorEventListener {
         contentValues.put("pressure",pressure);
 
         contentValues.put("areaCover",areaCover);
+        contentValues.put("actionCode",actionCode);
+        contentValues.put("actionCode2",actionCode2);
+        contentValues.put("actionCode3",actionCode3);
+
+        contentValues.put("pointerCount",pointerCount);
 //        contentValues.put("figureOrientation",figureOrientation);
         contentValues.put("screenOrientationStr",screenOrientationStr);
         contentValues.put("azimuth",azimuth);
@@ -216,6 +235,11 @@ public class CollectionData implements SensorEventListener {
             sz = gyroscopeValues[2];
         }
 
+      //TYPE_GRAVITY was not recognized, why?
+       // if(sensorEvent.sensor.getType()==Sensor.TYPE_GRAVITY){
+       // }
+
+
     }
 
     @Override
@@ -223,4 +247,5 @@ public class CollectionData implements SensorEventListener {
 
     }
 }
+
 

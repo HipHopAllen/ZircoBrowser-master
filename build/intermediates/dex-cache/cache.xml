@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="a71504348aa22e0ed66821c91b0dbfe48662db82">
+        sha1="0d26ba678cd2b11f983be0d299d98d70259554c8">
         <dex dex="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6fa56d52a36774ba326e5eabc5e975131102715a/classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="bb73b740cd085a2b7a3f137315e62a2f93d6b681">
+        sha1="71387de09ec87b930879edbc9c3446bf5554f1e4">
         <dex dex="/Users/yliu2/Desktop/data collection project/data collection/3rd version/ZircoBrowser-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6ba4c1c2677d8a0fdba8e5e0fd4b2d175cf504bb/classes.dex" />
     </item>
     <item
