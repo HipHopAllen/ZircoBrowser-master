@@ -34,9 +34,11 @@ public class CollectionData implements SensorEventListener {
     private static long timeStamp;
     private static float x;
     private static float y;
+    private static float xRaw;
+    private static float yRaw;
     private static float pressure;
     private static float areaCover;
-    private static String figureOrientation;
+    private static float fingerOrientation;
 
     private static String screenOrientationStr;
 
@@ -100,15 +102,20 @@ public class CollectionData implements SensorEventListener {
 
         x = event.getX();
         y = event.getY();
+        xRaw = event.getRawX();
+        yRaw = event.getRawY();
         pressure = event.getPressure();
         areaCover = event.getSize();
         pointerCount = event.getPointerCount();
         actionCode = event.getAction();
-        actionCodeMasked = event.getActionMasked();
-        actionIndex = event.getActionIndex(); //can delete
+        actionCodeMasked = event.getActionMasked(); // Part 1 of getAction: Masked action
+        actionIndex = event.getActionIndex(); // Part 2 of getAction: Pointer index
+        //  ?????????????????????????   fingerOrientation = event.getOrientation();
 
-     //   figureOrientation = getOrientation(event);
+      //  fingerOrientation = getOrientation(event);
      //   Log.v("ltl","figureOrientation"+ figureOrientation);
+
+
 
         int screenOrientation = context.getResources().getConfiguration().orientation;
         if(screenOrientation == Configuration.ORIENTATION_LANDSCAPE){
@@ -118,8 +125,8 @@ public class CollectionData implements SensorEventListener {
         }
 
 
-        Log.v("ltl","timeStamp:"+timeStamp+"actionCode"+actionCode+"actionCodeMasked"+actionCodeMasked+"actionIndex"+actionIndex+"pointerCount"+pointerCount+"x:"+x+"y:"+y+"pressure:"+pressure+"areaCover:"+areaCover+"figureOrientation:"+
-                figureOrientation+"screenOrientationStr:"+screenOrientationStr);
+        Log.v("ltl","timeStamp:"+timeStamp+"actionCode"+actionCode+"actionCodeMasked"+actionCodeMasked+"actionIndex"+actionIndex+"pointerCount"+pointerCount+"x:"+x+"xRaw"+xRaw+"y:"+y+"yRaw"+yRaw+"pressure:"+pressure+"areaCover:"+areaCover+"fingerOrientation:"+
+                fingerOrientation+"screenOrientationStr:"+screenOrientationStr);
         Log.v("ltl","gx:"+gx+" gy:"+gy+" gz:"+gz);
         Log.v("ltl","azimuth:"+azimuth+" pitch:"+pitch+" poll:"+poll);
         Log.v("ltl","sx:"+sx+" sy:"+sy+" sz:"+sz);
@@ -129,6 +136,8 @@ public class CollectionData implements SensorEventListener {
         contentValues.put("timeStamp",timeStamp);
         contentValues.put("x",x);
         contentValues.put("y",y);
+        contentValues.put("xRaw",xRaw);
+        contentValues.put("yRaw",yRaw);
         contentValues.put("pressure",pressure);
 
         contentValues.put("areaCover",areaCover);
@@ -137,7 +146,7 @@ public class CollectionData implements SensorEventListener {
         contentValues.put("actionIndex",actionIndex);
 
         contentValues.put("pointerCount",pointerCount);
-//        contentValues.put("figureOrientation",figureOrientation);
+        contentValues.put("fingerOrientation",fingerOrientation);
         contentValues.put("screenOrientationStr",screenOrientationStr);
         contentValues.put("azimuth",azimuth);
         contentValues.put("pitch",pitch);
